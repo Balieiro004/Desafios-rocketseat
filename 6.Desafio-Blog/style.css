@@ -115,3 +115,37 @@ main p {
     padding-left: 22px;
     padding-right: 26px;
 }
+
+.secao-dois{
+    width: 384px;
+    padding-top: 3.4rem;
+    padding-left: 2.2rem;
+    margin: 0 auto;
+}
+
+
+
+.artigos .container-dois{
+    display: flex;
+    gap: 16px;
+    padding-top: 32px;
+    
+}
+
+.artigos div img{
+    height: 8.4rem;
+    width: 15.1rem;
+}
+
+.texto-artigo h1{
+    font-size: 18px;
+
+    width: 166px;
+}
+.texto-artigo p{
+    padding: 0;
+    padding-top: 15.4px;
+    width: 21.5rem;
+    height: 5.4rem;
+    font-size: 1.4rem;
+}
