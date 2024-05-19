@@ -4,10 +4,52 @@
     box-sizing: border-box;
 }
 
+::-webkit-input-placeholder {
+    color: white;
+    padding: 12px 73px 12px 14px;
+ }
 :root {
     font-size: 62.5%;
 }
 
+header, .reacao, footer{
+    background-color: #065E7C;
+}
+
+nav{
+    display: flex;
+    padding: 12px 0;
+    justify-content: space-between;
+}
+
+nav img{
+    width: 4rem;
+    height: 4rem;
+}
+nav .logo{
+    margin-left: 28px;
+}
+
+nav .avatar{
+    margin-right: 28px;
+}
+
+form{
+    width: 241px;
+}
+form input{
+    height: 4rem;
+    background-color: #387e96;
+    color: white;
+    border: none;
+    border-radius: 0.4rem;
+}
+
+body{
+    max-width: 43rem;
+    border: 1px solid black;
+    margin: 0 auto;
+}
 .input-wrapper label{
     width: 1px;
     height: 1px;
@@ -30,6 +72,4 @@
     height: 4.0rem;
     object-fit: cover;
     border-radius: 50%;
-    background-color: #065E7C;
-    
 }
