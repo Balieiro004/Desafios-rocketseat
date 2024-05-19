@@ -10,12 +10,15 @@
  }
 :root {
     font-size: 62.5%;
+    font-family: "Mulish", sans-serif;
 }
 
-header, .reacao, footer{
+header, footer{
     background-color: #065E7C;
 }
-
+h1{
+    font-size: 2.4rem;
+}
 nav{
     display: flex;
     padding: 12px 0;
@@ -37,26 +40,22 @@ nav .avatar{
 form{
     width: 241px;
 }
+
 form input{
     height: 4rem;
     background-color: #387e96;
     color: white;
     border: none;
     border-radius: 0.4rem;
+    padding-left: 12px;
 }
 
-body{
-    max-width: 43rem;
-    border: 1px solid black;
-    margin: 0 auto;
-}
 .input-wrapper label{
     width: 1px;
     height: 1px;
     overflow: hidden;
     position: absolute;
 }
-
 .input-wrapper input{
     width: 100%;
 }
@@ -66,10 +65,53 @@ body{
     object-fit: cover;
     border-radius: 50%;
 }
+body{
+    max-width: 43rem;
+    border: 1px solid black;
+    margin: 0 auto;
+}
 
-.reacao{
-    width: 4.0rem;
-    height: 4.0rem;
-    object-fit: cover;
-    border-radius: 50%;
+main img{
+    width: 43rem;
+    height: 21.9rem;
+    overflow: hidden;
+}
+
+.container{
+    width: 34.2rem;
+    height: 8.6rem;
+    margin: 0 auto;
+    padding-top: 3.1rem;
+}
+
+.container .reacao{
+    display: flex;
+    gap: 1.2rem;
+    padding-top: 0.8rem;
+}
+
+.reacao div button{
+    background-color: #065E7C;
+    border-radius: 50%;    
+    border: none;
+    height: 4rem;
+    width: 4rem;
+}
+
+button:hover{
+    cursor: pointer;
+}
+
+.reacao div button img{
+    height: 16px;
+    width: 16px;
+}
+
+main p {
+    width: 38.2rem;
+    margin: 0 auto;
+    padding-top: 3.1rem;
+    font-size: 16px;
+    padding-left: 22px;
+    padding-right: 26px;
 }
