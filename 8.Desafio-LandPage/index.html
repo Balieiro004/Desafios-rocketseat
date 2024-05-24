@@ -4,8 +4,88 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>LandPage</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
+    <div class="page">
+        <main>
+            <header>
+                <div class="wrapper-paper">
+                    <img src="images/Astronauta.png" alt="Desenho de um astrounauta perto de alguns planetas">
+                </div><!--wrapper-paper-->
+                <div class="titulo">
+                    <h1>Explore sem limites</h1>
+                    <p>Porque o aprendizado é contínuo</p>
+                    <img src="images/SetaParaBaixo.png" alt="uma seta com indicação para baixo">
+                </div><!--titulo-->
+            </header><!--header-->
+
+            <section class="section-one">
+                <div class="card-body">
+                    <div class="image">
+                        <img src="images/Planeta-amarelo.png" alt="Planeta amarelo">
+                    </div><!--image-->
+                    <div class="message">
+                        <h2>Não pare nunca</h2>
+                        <p>Se você deseja ter sucesso nos estudos, é fundamental que você adote uma mentalidade de "não pare nunca". Estudar de forma consistente e contínua é a chave para o progresso e a conquista de seus objetivos.</p>
+                    </div><!--message-->
+                </div><!--card-body-->
+
+                <div class="card-body">
+                    <div class="image">
+                        <img src="images/planeta-azul.png" alt="Planeta azul">
+                    </div><!--image-->
+                    <div class="message">
+                        <h2>Só volta</h2>
+                        <p>Se você parou ou perdeu o ritmo em alguma atividade ou projeto, saiba que nunca é tarde para recomeçar. Às vezes, as circunstâncias podem mudar, ou podemos nos sentir desmotivados ou sobrecarregados.</p>
+                    </div><!--message-->
+                </div><!--card-body-->
+
+                <div class="card-body">
+                    <div class="image">
+                        <img src="images/planeta-vermelho.png" alt="Planeta vermelho">
+                    </div><!--image-->
+                    <div class="message">
+                        <h2>Siga seu ritmo</h2>
+                        <p>Avançar pouco a pouco mantém progresso constante em objetivos, evitando parar ou desistir. Mesmo pequenos passos nos aproximam do destino e motivam a continuidade. Não subestime o poder de cada ação rumo ao objetivo final.</p>
+                    </div><!--message-->
+                </div><!--card-body-->
+
+            </section><!--section-one-->
+
+            <section class="section-two">
+                <form id="my-form">
+                    <div class="fieldset-wrapper">
+                        <fieldset>
+                            <legend>Entre em contato</legend>
+
+                            <div class="input-wrapper">
+                                <div class="input-informacoes">
+                                    <div class="input-dados">
+                                        <label for="evento-nome"></label>
+                                        <img src="images/person.png" alt="">
+                                        <input type="text" id="evento-nome" required placeholder="Seu nome"/> 
+                                    </div><!--input-dados-->
+
+                                    <div class="input-dados">
+                                        <label for="evento-email"></label>
+                                        <img src="images/at.png" alt="">
+                                        <input type="text" id="evento-email" required placeholder="Email"/> 
+                                    </div><!--input-dados-->
+
+                                    <div class="input-text">
+                                        <textarea name="mensagem" id="mensagem" placeholder="Digite sua mensagem aqui..." required></textarea>
+                                    </div>
+                                </div><!--input-informacoes-->
+                            </div><!--input-wrapper-->
+                        </fieldset>
+                    </div><!--fieldset-wrapper-->
+                </form><!--my-form-->
+            </section><!--section-two-->
+            <footer>
+                <p>© 2023 - Rocketseat Explorer</p>
+            </footer>
+        </main>
+    </div><!--page-->
 </body>
 </html>
