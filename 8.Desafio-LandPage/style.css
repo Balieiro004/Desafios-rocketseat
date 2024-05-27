@@ -1,0 +1,200 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    font-size: 62.5%;
+}
+
+body{
+    max-width: 43rem;
+    margin: 0 auto;
+    font-family: "Mulish", sans-serif;
+}
+
+h1, h2{
+    color: #B52184;
+}
+
+p{
+    color: #312D64;
+}
+.wrapper-paper img{
+    width: 36.4rem;
+    height: 37rem;
+    margin: 0 3.3rem;
+}
+
+.titulo{
+   padding-top: 1.7rem;
+   padding-bottom: 9.3rem;
+}
+.titulo h1, p, div{
+    text-align: center;
+}
+.titulo h1{
+    font-size: 3.2rem;
+}
+
+.titulo p{
+    padding-top: 0.5rem;
+    padding-bottom: 3.5rem;
+    font-size: 2rem;
+}
+
+.titulo img{
+    width: 5.8rem;
+    height: 10.5rem;
+}
+
+.section-one{
+    background-image: linear-gradient(to right,  #343193, #302C63);
+    height: 124.2rem;
+}
+
+.container{
+    padding: 5.297rem 3.9rem;
+}
+.card-body{
+    width: 35.2rem;
+    height: 33.7rem;
+    background-color: white;
+    margin: 0 auto;
+    border-radius: 2rem;  
+    margin-top: 4.966rem;  
+}
+
+.card-body .image{
+    width: 8rem;
+    height: 8rem;
+    padding-top: 26px;
+    margin-left: 26px;
+}
+
+.card-body .message{
+    width: 26.5rem;
+    height: 13.1rem;
+    margin-top: 3.3rem;
+    margin-left: 2.6rem;
+}
+
+.card-body .message h2{
+    font-size: 2.9rem;
+    text-align: left;
+    padding-top: 2.0rem;
+    font-weight: bolder;
+}
+
+.card-body .message p{
+    text-align: left;
+    font-size: 16.04px;
+    font-weight: 400;
+}
+
+.section-two{
+    height: 56.5rem;
+    padding-top: 7.8rem;
+    padding-left: 4.3rem;
+}
+
+fieldset{
+    border: none;
+    align-items: left;
+}
+
+.fieldset-wrapper{
+    text-align: left;
+}
+
+.fieldset-wrapper h1{
+    font-size: 3.2rem;
+}
+.input-image{
+    border: 1px solid black;
+    width: 34.8rem;
+    height: 4.8rem;
+    border-radius: 1.6rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.input-image input{
+    border: none;
+    width: 28.2rem;
+    height: 1.6rem;
+    margin: 1.2rem;
+    color: #312D64;
+
+    box-shadow: 0 0 0 0;
+    border: 0 none;
+    outline: 0;
+}
+
+.input-image img{
+    width: 2.4rem;
+    height: 2.4rem;
+
+}
+.input-informacoes{
+    padding-top: 4.3rem;
+}
+
+.input-dados{
+    padding-bottom: 2.4rem;
+}
+
+.input-text{
+    border: 1px solid black;
+    width: 34.8rem;
+    height: 12.6rem;
+    border-radius: 1.6rem;
+}
+.input-text textarea{
+    resize: none;
+    margin: 12px 16px 16px 16px;
+
+    height: 9.8rem;
+    width: 31.6rem;
+
+    box-shadow: 0 0 0 0;
+    border: 0 none;
+    outline: 0;
+}
+
+.buttom{
+    margin-top: 2.4rem;    
+}
+
+button{
+    width: 15.1rem;
+    height: 4.5rem;
+    border-radius: 1.6rem;
+    background-image: linear-gradient(to right,  #343193, #302C63);
+    color: white;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+button:hover{
+    cursor: pointer;
+}
+
+footer{
+    height: 7.8rem;
+    background-image: linear-gradient(to right,  #343193, #302C63);
+}
+
+footer p{
+    color: white;
+    font-size: 1.9rem;
+
+    width: 40.4rem;
+    margin: 0 auto;
+    padding-top: 3.2rem;
+}

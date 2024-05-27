@@ -3,8 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <title>LandPage</title>
     <link rel="stylesheet" href="style.css">
+    
+    <link href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
 </head>
 <body>
     <div class="page">
@@ -16,61 +20,68 @@
                 <div class="titulo">
                     <h1>Explore sem limites</h1>
                     <p>Porque o aprendizado é contínuo</p>
-                    <img src="images/SetaParaBaixo.png" alt="uma seta com indicação para baixo">
+                    <div>
+                        <img src="images/SetaParaBaixo.png" alt="uma seta com indicação para baixo">
+                    </div>
                 </div><!--titulo-->
             </header><!--header-->
 
-            <section class="section-one">
-                <div class="card-body">
-                    <div class="image">
-                        <img src="images/Planeta-amarelo.png" alt="Planeta amarelo">
-                    </div><!--image-->
-                    <div class="message">
-                        <h2>Não pare nunca</h2>
-                        <p>Se você deseja ter sucesso nos estudos, é fundamental que você adote uma mentalidade de "não pare nunca". Estudar de forma consistente e contínua é a chave para o progresso e a conquista de seus objetivos.</p>
-                    </div><!--message-->
-                </div><!--card-body-->
-
-                <div class="card-body">
-                    <div class="image">
-                        <img src="images/planeta-azul.png" alt="Planeta azul">
-                    </div><!--image-->
-                    <div class="message">
-                        <h2>Só volta</h2>
-                        <p>Se você parou ou perdeu o ritmo em alguma atividade ou projeto, saiba que nunca é tarde para recomeçar. Às vezes, as circunstâncias podem mudar, ou podemos nos sentir desmotivados ou sobrecarregados.</p>
-                    </div><!--message-->
-                </div><!--card-body-->
-
-                <div class="card-body">
-                    <div class="image">
-                        <img src="images/planeta-vermelho.png" alt="Planeta vermelho">
-                    </div><!--image-->
-                    <div class="message">
-                        <h2>Siga seu ritmo</h2>
-                        <p>Avançar pouco a pouco mantém progresso constante em objetivos, evitando parar ou desistir. Mesmo pequenos passos nos aproximam do destino e motivam a continuidade. Não subestime o poder de cada ação rumo ao objetivo final.</p>
-                    </div><!--message-->
-                </div><!--card-body-->
+            <section class="section-one">                
+                <div class="container">
+                    <div class="card-body">
+                        <div class="image">
+                            <img src="images/Planeta-amarelo.png" alt="Planeta amarelo">
+                        </div><!--image-->
+                        <div class="message">
+                            <h2>Não pare nunca</h2>
+                            <p>Se você deseja ter sucesso nos estudos, é fundamental que você adote uma mentalidade de "não pare nunca". Estudar de forma consistente e contínua é a chave para o progresso e a conquista de seus objetivos.</p>
+                        </div><!--message-->
+                    </div><!--card-body-->
+    
+                    <div class="card-body">
+                        <div class="image">
+                            <img src="images/planeta-azul.png" alt="Planeta azul">
+                        </div><!--image-->
+                        <div class="message">
+                            <h2>Só volta</h2>
+                            <p>Se você parou ou perdeu o ritmo em alguma atividade ou projeto, saiba que nunca é tarde para recomeçar. Às vezes, as circunstâncias podem mudar, ou podemos nos sentir desmotivados ou sobrecarregados.</p>
+                        </div><!--message-->
+                    </div><!--card-body-->
+    
+                    <div class="card-body">
+                        <div class="image">
+                            <img src="images/planeta-vermelho.png" alt="Planeta vermelho">
+                        </div><!--image-->
+                        <div class="message">
+                            <h2>Siga seu ritmo</h2>
+                            <p>Avançar pouco a pouco mantém progresso constante em objetivos, evitando parar ou desistir. Mesmo pequenos passos nos aproximam do destino e motivam a continuidade. Não subestime o poder de cada ação rumo ao objetivo final.</p>
+                        </div><!--message-->
+                    </div><!--card-body-->
+                </div><!--container-->
 
             </section><!--section-one-->
 
             <section class="section-two">
                 <form id="my-form">
                     <div class="fieldset-wrapper">
+                        <h1>Entre em contato</h1>
                         <fieldset>
-                            <legend>Entre em contato</legend>
-
                             <div class="input-wrapper">
                                 <div class="input-informacoes">
                                     <div class="input-dados">
                                         <label for="evento-nome"></label>
-                                        <img src="images/person.png" alt="">
-                                        <input type="text" id="evento-nome" required placeholder="Seu nome"/> 
+                                        <div class="input-image">
+                                            <img src="images/person.png" alt="" >
+                                            <input type="text" id="evento-nome" required placeholder="Seu nome"/> 
+                                        </div>
                                     </div><!--input-dados-->
 
                                     <div class="input-dados">
                                         <label for="evento-email"></label>
-                                        <img src="images/at.png" alt="">
-                                        <input type="text" id="evento-email" required placeholder="Email"/> 
+                                        <div class="input-image">
+                                            <img src="images/at.png" alt="">
+                                            <input type="text" id="evento-email" required placeholder="Email"/> 
+                                        </div>
                                     </div><!--input-dados-->
 
                                     <div class="input-text">
@@ -81,6 +92,10 @@
                         </fieldset>
                     </div><!--fieldset-wrapper-->
                 </form><!--my-form-->
+
+                <div class="buttom">
+                    <button type="submit" form="my-form" value="Submit">Enviar Mensagem</button>
+                </div><!--buttom-->
             </section><!--section-two-->
             <footer>
                 <p>© 2023 - Rocketseat Explorer</p>
