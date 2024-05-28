@@ -198,3 +198,48 @@ footer p{
     margin: 0 auto;
     padding-top: 3.2rem;
 }
+
+@media (min-width: 770px) {
+
+
+    .container-header{
+        display: flex;
+        -webkit-flex-direction: row-reverse;
+        flex-direction: row-reverse;
+    }
+
+    body {
+        max-width: 144.0rem;
+        margin: 0 auto;
+    }
+
+    header{
+        
+        height: 83.6rem;
+    }
+    .wrapper-paper img{
+        width: 71.936rem;
+        height: 73.236rem;
+    }
+
+    .titulo{
+        padding-top: 31.2rem;
+        padding-right: 2.8rem;
+
+
+    }
+    .titulo h1{
+        font-size: 5.829rem;
+        width: 55.4rem;
+    }
+
+    .titulo p{
+        padding-top: 0.8rem;
+    }
+    
+    .titulo div{
+        padding-top: 17.9rem; 
+        padding-right: 50.0rem;
+    }
+
+}
