@@ -62,7 +62,7 @@ button:hover{
 
 .vai-tremer:hover{
     animation: tremer .2s;
-    animation-iteration-count: 1000;
+    animation-iteration-count: infinite;
 }
 
 /* keyframe para ajustar até onde treme */
@@ -81,9 +81,6 @@ button:hover{
     margin-top: 14.1rem;
 }
 
-.btn-button{
-    margin-top: 1.6rem;
-}
 .btn-outro{
     height: 5.2rem;
     width: 17.4rem;
@@ -93,16 +90,50 @@ button:hover{
 }
 
 .frase{
-    margin-top: 2.7rem;
-    width: 29.3rem;
-    height: 10.7rem;
-
-    background-color: #E4EDF1;
-
+    font-weight: normal;
+    background-color: #e4edf1;
+    box-shadow: 0 .2rem .4rem rgba(0,0,0,0.1);
+    animation-name: toFadeIn;
+    animation-duration: 2s;
+    text-align: center;  
+    padding: 10px; 
     box-shadow: 9px 7px 5px rgba(50, 50, 50, 0.77);
+    margin-top: 2.7rem;
 }
 .screen2 span{
     
     font-size: 2.4rem;
     font-family: "Dancing Script", cursive;
+
+
+}
+
+@keyframes toFadeIn {
+    0% {
+      transform:
+      translateY(150px)
+      scale(0.1);
+
+    }
+
+    100% {
+      transform:
+      translateY(0px)
+      scale(1);
+    }
+  }
+
+
+@keyframes shake {
+  0% { transform: translate(1px, 1px) rotate(0deg); }
+  10% { transform: translate(-1px, -2px) rotate(-1deg); }
+  20% { transform: translate(-3px, 0px) rotate(1deg); }
+  30% { transform: translate(3px, 2px) rotate(0deg); }
+  40% { transform: translate(1px, -1px) rotate(1deg); }
+  50% { transform: translate(-1px, 2px) rotate(-1deg); }
+  60% { transform: translate(-3px, 1px) rotate(0deg); }
+  70% { transform: translate(3px, 1px) rotate(-1deg); }
+  80% { transform: translate(-1px, -1px) rotate(1deg); }
+  90% { transform: translate(1px, 2px) rotate(0deg); }
+  100% { transform: translate(1px, -2px) rotate(-1deg); }
 }
